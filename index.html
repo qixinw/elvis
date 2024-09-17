@@ -1,234 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Pages Example</title>
+    <title>Styled Page</title>
     <style>
-        /* General styles */
         body {
-            font-family: 'Open Sans', sans-serif;
-        }
-        .tpmmCb, .gk8rDe, .cJgDec, .lQAHbd, .O13XJf, .Y4CpGd, .CMArNe {
             margin: 0;
             padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f7f7f7;
         }
-        .tpmmCb .Wew9ke {
-            fill: rgba(31,31,31,1);
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
         }
-        .tpmmCb .QmpIrf {
-            background-color: rgba(255,255,255,1);
-            border-color: rgba(0,0,0,1);
-            color: rgba(0,0,0,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
+        .QmpIrf {
+            background-color: rgba(128, 174, 154, 1);
+            border-color: rgba(0, 0, 0, 1);
+            color: rgba(0, 0, 0, 1);
+            font-size: 18pt; /* 调整字体大小 */
+            line-height: 28px;
+            padding: 15px;
+            margin-bottom: 20px;
         }
-        @media only screen and (max-width: 479px) {
-            .tpmmCb .QmpIrf {
-                font-size: 13pt;
-            }
-        }
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
-            .tpmmCb .QmpIrf {
-                font-size: 13pt;
-            }
-        }
-        .gk8rDe {
-            padding-top: 60px;
-        }
-        .gk8rDe .zfr3Q, .gk8rDe .OmQG5e, .gk8rDe .NHD4Gf {
-            color: rgba(31,31,31,1);
-        }
-        .gk8rDe .QmpIrf {
-            background-color: rgba(128,174,154,1);
-            border-color: rgba(0,0,0,1);
-            color: rgba(0,0,0,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        @media only screen and (max-width: 479px) {
-            .gk8rDe {
-                padding-top: 32px;
-                padding-bottom: 32px;
-            }
-            .gk8rDe .QmpIrf {
-                font-size: 13pt;
-            }
-        }
-        @media only screen and (min-width: 480px) and (max-width: 767px) {
-            .gk8rDe .QmpIrf {
-                font-size: 13pt;
-            }
-        }
-        .PsKE7e:hover, .BFDQOb:hover {
-            opacity: 0.7;
-        }
-        .wgxiMe {
-            background-color: rgba(247,247,247,1);
+        .QmpIrf:hover {
+            background-color: rgba(31, 31, 31, 0.1);
         }
         .xkUom {
-            border-color: rgba(0,0,0,1);
-            color: rgba(0,0,0,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
+            border-color: rgba(31, 31, 31, 1);
+            color: rgba(31, 31, 31, 1);
+            font-size: 18pt; /* 调整字体大小 */
+            line-height: 28px;
+            padding: 15px;
+            margin-bottom: 20px;
         }
         .xkUom:hover {
-            background-color: rgba(31,31,31,0.1000000015);
+            background-color: rgba(31, 31, 31, 0.1);
         }
         .KjwKmc {
-            color: rgba(0,0,0,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
+            color: rgba(31, 31, 31, 1);
+            font-size: 18pt; /* 调整字体大小 */
+            line-height: 28px;
+            padding: 15px;
+            margin-bottom: 20px;
         }
         .KjwKmc:hover {
-            background-color: rgba(31,31,31,0.1000000015);
+            background-color: rgba(31, 31, 31, 0.1);
         }
-        .lQAHbd .xkUom {
-            border-color: rgba(0,0,0,1);
-            color: rgba(0,0,0,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .lQAHbd .xkUom:hover {
-            background-color: rgba(255,255,255,0.1000000015);
-        }
-        .lQAHbd .KjwKmc {
-            color: rgba(0,0,0,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .lQAHbd .KjwKmc:hover {
-            background-color: rgba(255,255,255,0.1000000015);
-        }
-        .cJgDec .xkUom {
-            border-color: rgba(255,255,255,1);
-            color: rgba(255,255,255,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .cJgDec .xkUom:hover {
-            background-color: rgba(255,255,255,0.1000000015);
-        }
-        .cJgDec .KjwKmc {
-            color: rgba(255,255,255,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .cJgDec .KjwKmc:hover {
-            background-color: rgba(255,255,255,0.1000000015);
-        }
-        .tpmmCb .xkUom {
-            border-color: rgba(31,31,31,1);
-            color: rgba(31,31,31,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .tpmmCb .xkUom:hover {
-            background-color: rgba(31,31,31,0.1000000015);
-        }
-        .tpmmCb .KjwKmc {
-            color: rgba(31,31,31,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .tpmmCb .KjwKmc:hover {
-            background-color: rgba(31,31,31,0.1000000015);
-        }
-        .O13XJf .xkUom {
-            border-color: rgba(255,255,255,1);
-            color: rgba(255,255,255,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .O13XJf .xkUom:hover {
-            background-color: rgba(255,255,255,0.1000000015);
-        }
-        .O13XJf .KjwKmc {
-            color: rgba(255,255,255,1);
-            font-family: 'Open Sans';
-            font-size: 13pt;
-            line-height: 22px;
-        }
-        .O13XJf .KjwKmc:hover {
-            background-color: rgba(255,255,255,0.1000000015);
-        }
-        .Y4CpGd {
-            font-family: 'Open Sans';
-            font-size: 13pt;
-        }
-        .CMArNe {
-            background-color: rgba(248,248,248,1);
-        }
-        /* Responsive font sizes */
         @media only screen and (max-width: 479px) {
-            .duRjpb {
-                font-size: 27pt;
-            }
-            .JYVBee {
-                font-size: 22pt;
-            }
-            .OmQG5e {
-                font-size: 16pt;
-            }
-            .TMjjoe {
-                font-size: 9pt;
-            }
-            .Zjiec {
-                font-size: 17pt;
-            }
-            .PsKE7e {
-                font-size: 12pt;
-            }
-            .TlfmSc {
-                font-size: 15pt;
-            }
-            .jgXgSe {
-                font-size: 12pt;
-            }
             .QmpIrf, .xkUom, .KjwKmc {
-                font-size: 13pt;
+                font-size: 16pt; /* 移动设备上的字体大小调整 */
             }
         }
         @media only screen and (min-width: 480px) and (max-width: 767px) {
-            .duRjpb {
-                font-size: 33pt;
-            }
-            .JYVBee {
-                font-size: 26pt;
-            }
-            .OmQG5e {
-                font-size: 17pt;
-            }
-            .TMjjoe, .Zjiec, .PsKE7e, .TlfmSc, .jgXgSe, .QmpIrf, .xkUom, .KjwKmc {
-                font-size: 13pt;
+            .QmpIrf, .xkUom, .KjwKmc {
+                font-size: 18pt; /* 平板上的字体大小调整 */
             }
         }
     </style>
 </head>
 <body>
-    <header class="O13XJf">
-        <h1 class="duRjpb">Header Title</h1>
-    </header>
-    <main class="SBrW1">
-        <section class="tpmmCb">
-            <h2 class="JYVBee">Section Title</h2>
-            <p class="QmpIrf">This is a paragraph with some example text. The styling for this text is defined in the CSS.</p>
-        </section>
-        <section class="gk8rDe">
-            <h2 class="OmQG5e">Another Section Title</h2>
-            <p class="QmpIrf">Another paragraph with different styling.</p>
-        </section>
-    </main>
+    <div class="container">
+        <div class="QmpIrf">
+            这是 QmpIrf 样式的内容
+        </div>
+        <div class="xkUom">
+            这是 xkUom 样式的内容
+        </div>
+        <div class="KjwKmc">
+            这是 KjwKmc 样式的内容
+        </div>
+    </div>
 </body>
 </html>
