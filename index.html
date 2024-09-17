@@ -7,15 +7,32 @@ redirect_from:
   - /about.html
 ---
 
+<!-- 隐藏默认导航栏 -->
+<style>
+  nav { 
+    display: none; 
+  }
+  /* 居中简介部分 */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+</style>
+
 <!-- 整体布局 -->
-<div class="container" style="display: flex; align-items: flex-start; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+<div class="container" style="text-align: center;">
   <!-- 个人照片部分 -->
-  <div class="profile-image" style="flex: 0 0 200px; margin-right: 20px;">
+  <div class="profile-image" style="margin-bottom: 20px;">
     <img src="/elvis/_pages/Elvis.png" alt="Pui-In Mak" style="width: 200px; height: auto; border-radius: 8px;">
   </div>
 
   <!-- 个人信息部分 -->
-  <div class="profile-info" style="flex: 1;">
+  <div class="profile-info">
     <h1 style="margin-top: 0;">Pui-In Mak (Elvis) 麦沛然</h1>
     <p>IEEE Fellow | IET Fellow | RSC Fellow</p>
     <p>Foreign Academician, Academy of Sciences of Lisbon, Portugal</p>
