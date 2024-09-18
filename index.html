@@ -9,20 +9,22 @@ redirect_from:
 
 <!-- 导航栏样式 -->
 <style>
-  /* 导航栏的整体样式 */
+  /* 定义导航栏样式 */
   .navbar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
     background-color: #333;
-    overflow: hidden;
-    position: relative;
+    border-radius: 5px;
+    padding: 10px;
   }
 
   .navbar a {
-    float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 12px;
     text-decoration: none;
+    display: block;
   }
 
   .navbar a:hover {
@@ -30,29 +32,13 @@ redirect_from:
     color: black;
   }
 
-  .dropdown {
-    float: left;
-    overflow: hidden;
+  /* 当前页面名称的显示 */
+  .navbar .current-page {
+    font-weight: bold;
+    color: #fff;
   }
 
-  /* 导航栏按钮的样式 */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 20px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #ddd;
-    color: black;
-  }
-
-  /* 下拉菜单的内容 */
+  /* 隐藏子目录 */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -60,6 +46,10 @@ redirect_from:
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 
   .dropdown-content a {
@@ -74,71 +64,31 @@ redirect_from:
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  /* 用于子菜单展开的箭头样式 */
-  .dropbtn::after {
-    content: '\25BC'; /* 下拉箭头 */
-    float: right;
-    margin-left: 5px;
-  }
-
-  /* 自定义的侧边栏样式 */
-  .sidebar {
-    height: 100%; /* Full-height */
-    width: 250px; /* 宽度 */
-    position: fixed; /* 固定位置 */
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111; /* 背景颜色 */
-    padding-top: 20px;
-  }
-
-  .sidebar a {
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-  }
-
-  .sidebar a:hover {
-    background-color: #575757;
-  }
-
-  /* 内容部分的偏移 */
-  .content {
-    margin-left: 260px;
-    padding: 20px;
-  }
 </style>
 
-<!-- 侧边栏导航开始 -->
-<div class="sidebar">
-  <a href="#home">Recognition & Services</a>
-  <a href="#services">Awards</a>
-  <a href="#clients">Example Chip Projects</a>
-  <a href="#contact">Multidisciplinary Projects</a>
-  <a href="#contact">Students</a>
-  <a href="#contact">Journal Papers</a>
-  <a href="#contact">Conference Papers</a>
-  <a href="#contact">Books/Book Chapters</a>
-  <a href="#contact">Patents</a>
-  <a href="#contact">Presentations</a>
-  <a href="#contact">Memories 2023 and more...</a>
-  <a href="#contact">Memories 2022</a>
-  <a href="#contact">Memories 2021</a>
+<!-- 导航栏HTML -->
+<div class="navbar">
+  <div class="dropdown">
+    <!-- 当前页面名称 -->
+    <a class="current-page">Home</a>
+    <!-- 子目录，点击或悬停时显示 -->
+    <div class="dropdown-content">
+      <a href="/recognition">Recognition & Services</a>
+      <a href="/awards">Awards</a>
+      <a href="/projects">Example Chip Projects</a>
+      <a href="/students">Students</a>
+      <!-- 继续添加其他页面 -->
+    </div>
+  </div>
 </div>
 
-<!-- 页面内容 -->
-<div class="content">
-  <h2>Main Content Area</h2>
-  <p>This is where the main content of the page will go. The sidebar remains fixed to the left as you scroll.</p>
+<!-- 页面内容示例 -->
+<div class="content" style="padding: 20px;">
+  <h2>Welcome to Home</h2>
+  <p>This is the home page.</p>
 </div>
+
+
 
 
 <!-- 整体布局 -->
