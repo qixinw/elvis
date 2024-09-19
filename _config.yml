@@ -172,7 +172,7 @@ collections:
     permalink: /:collection/:path/
   recognition:
     output: true
-    permalink: /:collection/:path/
+    permalink: /recognition/
 
 
 # Defaults
