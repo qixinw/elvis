@@ -1,7 +1,7 @@
 ---
 collection: recognition
 permalink: /recognition/
-layout: chip
+layout: default
 author_profile: false
 ---
 
