@@ -1,6 +1,6 @@
 ---
-collection: awards
-permalink: /awards/
+collection: recognition
+permalink: /recognition/
 layout: default
 author_profile: false
 ---
@@ -10,30 +10,28 @@ author_profile: false
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Awards and Recognition</title>
+  <title>Recognition and Achievements</title>
   <style>
-    /* 隐藏原有的导航栏 */
     .masthead {
-      display: none;
+      display: none; /* 隐藏原有的导航栏 */
     }
-
-    /* 自定义导航栏样式 */
+    
+    /* 定义导航栏样式 */
     .navbar {
       position: fixed;
       top: 20px;
-      right: 50px;
+      right: 100px;
       background-color: #333;
       border-radius: 10px;
       padding: 20px;
-      z-index: 1000;
     }
 
     .navbar a {
       color: white;
+      text-align: center;
       padding: 12px;
       text-decoration: none;
       display: block;
-      text-align: center;
     }
 
     .navbar a:hover {
@@ -41,17 +39,19 @@ author_profile: false
       color: black;
     }
 
+    /* 当前页面名称的显示 */
     .navbar .current-page {
       font-weight: bold;
       color: #fff;
     }
 
+    /* 隐藏子目录 */
     .dropdown-content {
       display: none;
       position: absolute;
       background-color: #f9f9f9;
       min-width: 200px;
-      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
 
@@ -60,28 +60,27 @@ author_profile: false
     }
 
     .dropdown-content a {
+      float: none;
       color: black;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
+      text-align: left;
     }
 
     .dropdown-content a:hover {
       background-color: #ddd;
     }
-
-    /* 居中容器 */
+    
+    /* 居中简介部分 */
     .container {
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: 10px;
       font-family: Arial, sans-serif;
       line-height: 1.6;
       color: #333;
-      max-width: 900px;
-      margin: 0 auto;
     }
 
     .container h1 {
@@ -108,7 +107,9 @@ author_profile: false
   <!-- 导航栏HTML -->
   <div class="navbar">
     <div class="dropdown">
-      <a class="current-page">Home</a>
+      <!-- 当前页面名称 -->
+      <a class="current-page" href="{{ site.baseurl }}/">Home</a>
+      <!-- 子目录，点击或悬停时显示 -->
       <div class="dropdown-content">
         <a href="{{ site.baseurl }}/recognition/">Recognition & Services</a>
         <a href="{{ site.baseurl }}/awards/">Awards</a>
