@@ -170,6 +170,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  recognition:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
