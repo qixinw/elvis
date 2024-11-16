@@ -161,68 +161,67 @@ author_profile: false
   <meta name="viewport" content="width=device - width, initial - scale=1.0">
   <title>Document</title>
   <style>
-    /* 整体居中并左右留白 */
-   .container {
+   .article - container {
       display: flex;
       justify - content: center;
-      padding: 0 50px;
-      /* 左右留白，可根据需要调整 */
+      align - items: flex - start;
       flex - direction: column;
-      align - items: center;
+      width: 800px;
+      margin: 0 auto;
     }
 
-    /* 每个图文组合的样式 */
-   .img - text - container {
+   .article - item {
       display: flex;
       align - items: flex - start;
-      width: 1000px;
-      /* 根据需要调整宽度 */
-      margin: 0 auto;
-      margin - bottom: 20px;
-      height: 200px; /* 设置固定高度，确保文字部分上下对齐 */
+      margin - bottom: 40px;
     }
 
-   .img - text - container img {
+   .article - item img {
       width: 350px;
-      margin - right: 10px;
+      margin - right: 20px;
     }
 
-   .img - text - container div {
+   .article - text {
       display: flex;
       flex - direction: column;
       justify - content: flex - start;
+    }
+
+   .article - text p {
+      margin: 0;
+    }
+
+   .article - text ul {
+      margin - top: 5px;
+      padding - left: 20px;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="img - text - container">
-      <img style="margin - right: 10px;" src="图片2-A.png" alt="Description" width="350" />
-      <div style="margin: 0;">
+  <div class="article - container">
+    <div class="article - item">
+      <img src="图片2-A.png" alt="Description">
+      <div class="article - text">
         <p><strong>Drug Screening on Digital Microfluidics for Cancer Precision Medicine</strong></p>
         <p>Jiao Zhai, Yingying Liu, Weiqing Ji, Xinru Huang, Ping Wang, Yunyi Li, Haoran Li, Ada Hang - Heng Wong, Xiong
           Zhou, Ping Chen, Lianhong Wang, Ning Yang, Chi Chen, Haitian Chen, Pui - In Mak, Chu - Xia Deng, Rui Martins,
           Mengsu Yang, Tsung - Yi Ho, Shuhong Yi*, Hailong Yao*, Yanwei Jia*</p>
-        <ul style="list - style - type: disc; margin: 0; padding - left: 20px;">
+        <ul>
           <li>[Nature Communications'24]</li>
         </ul>
       </div>
     </div>
-
-    <!-- 图文混排部分 -->
-    <div class="container">
-      <div class="img - text - container">
-        <img style="margin - right: 10px;" src="图片3-A.png" alt="Description" width="350" />
-        <div style="margin: 0;">
-          <p><strong>Drug Screening on Digital Microfluidics for Cancer Precision Medicine</strong></p>
-          <p>Jiao Zhai, Yingying Liu, Weiqing Ji, Xinru Huang, Ping Wang, Yunyi Li, Haoran Li, Ada Hang - Heng Wong, Xiong
-            Zhou, Ping Chen, Lianhong Wang, Ning Yang, Chi Chen, Haitian Chen, Pui - In Mak, Chu - Xia Deng, Rui Martins,
-            Mengsu Yang, Tsung - Yi Ho, Shuhong Yi*, Hailong Yao*, Yanwei Jia*</p>
-          <ul style="list - style - type: disc; margin: 0; padding - left: 20px;">
-            <li>[Nature Communications'24]</li>
-          </ul>
-        </div>
+    <div class="article - item">
+      <img src="图片3-A.png" alt="Description">
+      <div class="article - text">
+        <p><strong>A syndromic diagnostic assay on macrochannel - to - digital microfluidic platform for automatic
+            identification of multiple respiratory pathogens</strong></p>
+        <p>Cheng Dong, Fei Li, Yun Sun, Dongling Long, Chunzhao Chen, Mengyan Li, Tao Wei, Rui P Martins, Tianlan Chen
+          and Pui - In Mak</p>
+        <ul>
+          <li>[RSC Lab on a Chip'24]</li>
+        </ul>
       </div>
     </div>
   </div>
