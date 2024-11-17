@@ -1,0 +1,201 @@
+---
+collection: journal
+permalink: /journal/
+layout: default
+author_profile: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awards and Achievements</title>
+  <style>
+    .masthead {
+      display: none; /* 隐藏原有的导航栏 */
+    }
+    /* 定义导航栏样式 */
+    .navbar {
+      position: fixed;
+      top: 20px;
+      right: 100px;
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  
+    .navbar a {
+      color: white;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  
+    /* 当前页面名称的显示 */
+    .navbar .current-page {
+      font-weight: bold;
+      color: #fff;
+    }
+  
+    /* 隐藏子目录 */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px; /* Limit the width of the content */
+      margin: 0 auto; /* Center the container */
+    }
+    .container h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .container ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .container li {
+      margin-bottom: 10px;
+    }
+    .container span {
+      font-size: 24px;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 导航栏HTML -->
+  <div class="navbar">
+    <div class="dropdown">
+      <!-- 当前页面名称 -->
+      <a class="current-page" href="{{ site.baseurl }}/">Home</a>
+      <!-- 子目录，点击或悬停时显示 -->
+      <div class="dropdown-content">
+        <a href="{{ site.baseurl }}/index.html">Home</a>
+        <a href="{{ site.baseurl }}/recognition/">Recognition & Services</a>
+        <a href="{{ site.baseurl }}/awards/">Awards</a>
+        <a href="{{ site.baseurl }}/chip/">Example Chip Projects</a>
+        <a href="{{ site.baseurl }}/student/">Students</a>
+        <a href="{{ site.baseurl }}/journal/">Journal Papers</a>
+        <a href="{{ site.baseurl }}/conference/">Conference Papers</a>
+        <a href="{{ site.baseurl }}/books/">Books/Book Chapters</a>
+        <a href="{{ site.baseurl }}/patents/">Patents</a>
+        <a href="{{ site.baseurl }}/presentations/">Presentations</a>
+        <a href="{{ site.baseurl }}/memories20232024/">Memories 2023 and 2024</a>
+        <a href="{{ site.baseurl }}/memories2022/">Memories 2022</a>
+        <a href="{{ site.baseurl }}/memories20202021/">Memories 2020 and 2021</a>
+        <a href="{{ site.baseurl }}/memories2019/">Memories2019</a>
+        <a href="{{ site.baseurl }}/memories2018/">Memories 2018 and Before</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <ul>
+      <li><strong>SSCS Predoctoral Achievement Award (Haijun Shao)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2022-2023</li>
+      <li><strong>Xplorer Prize</strong><br>Awarded by: Tencent Foundation, 2022</li>
+      <li><strong>Student Paper Award - 3rd Place (Xiaoteng Zhao)</strong><br>Awarded by: IEEE Radio Frequency Integrated Circuits Symposium (RFIC), 2021</li>
+      <li><strong>ISSCC Student Travel Grant Award (Chao Fan)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2020</li>
+      <li><strong>Best Paper Award</strong><br>Awarded by: IEEE Asia Pacific Conference on Circuits and Systems (APCCAS), 2019</li>
+      <li><strong>Best Track Paper Award</strong><br>Awarded by: IEEE PES Asia-Pacific Power and Energy Engineering Conference (APPEEC), 2019</li>
+      <li><strong>Best Poster Paper Award</strong><br>Awarded by: 9th International Multidisciplinary Conference on Optofluidics (IMCO), 2019</li>
+      <li><strong>SSCS Predoctoral Achievement Award (Chee-Cheow Lim)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2018-2019</li>
+      <li><strong>SSCS Predoctoral Achievement Award (Yang Jiang)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2018-2019</li>
+      <li><strong>ISSCC SRP Poster Award Honorable Mention (Xingqiang Peng)</strong><br>Awarded by: IEEE International Solid-State Circuits Conference, 2018</li>
+      <li><strong>SSCS Predoctoral Achievement Award (Wei-Han Yu)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2017-2018</li>
+      <li><strong>IEEE/CEDA Outstanding Service Award (co-recipient)</strong><br>Awarded by: IEEE Council on Electronic Design Automation (CEDA), 2017</li>
+      <li><strong>SSCS Predoctoral Achievement Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2016-2017</li>
+      <li><strong>ISSCC Student Travel Grant Award (Tantan Zhang)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2017</li>
+      <li><strong>UK Royal Society of Chemistry Poster Prize (Jie Gao)</strong><br>Awarded by: Lab on a Chip International Symposium: Droplet-based Microfluidics, 2016</li>
+      <li><strong>ISSCC Silkroad Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE International Solid-State Circuits Conference, 2016</li>
+      <li><strong>ISSCC Student Travel Grant Award (Wei-Han Yu and Chio-In Ieong)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2016</li>
+      <li><strong>A-SSCC Distinguished Design Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE Asian Solid-State Circuits Conference, 2015</li>
+      <li><strong>SSCS Predoctoral Achievement Award (Zhicheng Lin)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2014-2015</li>
+      <li><strong>ISSCC Student Travel Grant Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2015</li>
+      <li><strong>SSCS Predoctoral Achievement Award (Zushu Yan)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2013-2014</li>
+      <li><strong>ISSCC Student Travel Grant Award (Zushu Yan)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2014</li>
+      <li><strong>Best Associate Editor</strong><br>Awarded by: IEEE Transactions on Circuits and Systems II, 2012-2013</li>
+      <li><strong>Best Paper Award</strong><br>Awarded by: Asia Symposium on Quality Electronic Design – ASQED, Penang, Malaysia, 2013</li>
+      <li><strong>Silver-Leaf Certificate</strong><br>Awarded by: 2nd IEEE Asia Pacific Conference on Postgraduate Research in Microelectronics & Electronics (PrimeAsia), 2010</li>
+      <li><strong>IEEE CASS Outstanding Young Author Award (for the Best Journal Paper)</strong><br>Awarded by: IEEE Circuits and Systems Society, for authoring a meritorious paper published in any of the CAS Society’s Transactions whose author at the date of submission is <30 years of age. [among the five Best Paper Awards selected from all IEEE CAS Society Transactions], 2010</li>
+      <li><strong>IEEE MGA GOLD Achievement Award</strong><br>Awarded by: IEEE with the citation “For outstanding contributions to global GOLD activities by implementing new strategies to recognize, support, and network GOLD members”, 2009 [Among the 2 recipients awarded to Region 10 – Asia Pacific and Australia]</li>
+      <li><strong>IEEE CASS Service Appreciation</strong><br>Awarded by: IEEE Circuits and Systems Society for professional services to the Board-of-Governors as GOLD Representative of Region 10, 2009</li>
+      <li><strong>Gold-Leaf Certificate</strong><br>Awarded by: 1st IEEE Asia Pacific Conference on Postgraduate Research in Microelectronics & Electronics (PrimeAsia), 2009</li>
+      <li><strong>IEEE CAS Chapter-of-the-Year Award (Co-Recipient)</strong><br>Awarded by: IEEE Circuits and Systems Society, 2009</li>
+      <li><strong>Visiting Fellowship</strong><br>Awarded by: University of Cambridge, United Kingdom, 2009</li>
+      <li><strong>Merit Student Paper Award</strong><br>Awarded by: IEEE Asia-Pacific Conference on Circuits and Systems, 2008</li>
+      <li><strong>Silver-Leaf Certificate</strong><br>Awarded by: 1st IEEE Conference on Ph.D. Research in Micro-Electronics and Electronics (PRIME), 2005</li>
+      <li><strong>Paper Contest Award, 2nd Place</strong><br>Awarded by: ACM/IEEE Design Automation Conference and International Solid-State Circuits Conference (DAC/ISSCC), 2005</li>
+      <li><strong>Best Paper Award</strong><br>Awarded by: 7th IEEJ International Analog VLSI Workshop, 2004</li>
+      <li><strong>Paper Contest Award, 2nd Place</strong><br>Awarded by: 47th IEEE International Midwest Symposium on Circuits and Systems (MWSCAS), 2004</li>
+      <li><strong>Outstanding Student Paper Award</strong><br>Awarded by: 5th IEEE International Conference on ASIC, 2003</li>
+    </ul>
+
+    <span>National and Local</span>
+
+    <ul>
+      <li><strong>2022 Macao Science and Technology Invention Award (2nd Class)</strong><br>Awarded by Macau - FDCT</li>
+      <li><strong>2022 Macao Science and Technology Invention Award (3rd Class)</strong><br>Awarded by Macau - FDCT</li>
+      <li><strong>2020 Macao Science and Technology Invention Award (1st Class)</strong><br>Awarded by Macau - FDCT</li>
+      <li><strong>2020 Overall Champion, Torch Award, IEEAC Award, Protechting Award, Alibaba Cloud Award and Best Investment Value Award</strong><br>A
+      <li><strong>University-level 2019/2020 Incentive Scheme for Outstanding Academic Staff</strong>Awarded by University of Macau</li>
+      <li><strong>2019 Fellow of the Year Award</strong>Awarded by Choi Kai Yau College, University of Macau </li>
+      <li><strong>2019 Macao Regional Champion</strong>Awarded by Bank of China Trophy One Million Dollar Entrepreneurship Competition, Macau</li>
+      <li><strong>2019 FST 30th Anniversary Outstanding Alumni Award</strong>Awarded by University of Macau, Faculty of Science and Technology (FST)</li>
+      <li><strong>2017/2018 FST Outstanding Academic Staff</strong>Awarded by University of Macau</li>
+      <li><strong>2016/2017 FST Research Excellence Award</strong>Awarded by University of Macau</li>
+      <li><strong>2017 10-Year Long Service Award</strong>Awarded by University of Macau</li>
+      <li><strong>2016 Young Researcher Award (Student: Ka-Meng Lei)</strong>Awarded by International Institute of Macau - IIM</li>
+      <li><strong>2016 Macao Science and Technology Invention Award (2nd Class)</strong>Awarded by Macau - FDCT</li>
+      <li><strong>2014 Excellence in Innovation (co-recipient)</strong>Awarded by Macau Business Award</li>
+      <li><strong>2014 Macao Science and Technology Invention Award (2nd Class)</strong>Awarded by Macau - FDCT</li>
+      <li><strong>2012 Macao Science and Technology Invention Award (2nd Class)</strong>Awarded by Macau - FDCT</li>
+      <li><strong>2012 Macao Science and Technology Special Award</strong>Awarded by Macau - FDCT</li>
+      <li><strong>2011 University of Macau Academic Staff Award</strong>Awarded by University of Macau “For outstanding performances and achievements contributed for the UM international projection,”  2010</li>
+      <li><strong>2007-2009 University of Macau Research Award - Emerging Scholar</strong>Awarded by University of Macau with citation “For his contribution of excellent research to the community and global industry.” , 2010</li>
+      <li><strong>Merit Paper Award</strong>Awarded by: Regional Inter-University Postgraduate Electrical and Electronic Engineering Conference (RIUPEEEC), 2005</li>
+    </ul>
+  </div>
+</body>
+
+  
