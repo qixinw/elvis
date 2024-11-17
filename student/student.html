@@ -1,1 +1,218 @@
+---
+collection: recognition
+permalink: /recognition/
+layout: default
+author_profile: false
+---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recognition and Achievements</title>
+  <style>
+    /* 定义CSS变量，用于调整间距和字号 */
+    :root {
+      --font-size-base: 16px; /* 基础字体大小 */
+      --font-size-title: 1.8em; /* 标题字号 */
+      --font-size-list: 1em; /* 列表字号 */
+      --line-height: 1.6; /* 行高 */
+      --spacing-section: 30px; /* 标题上方的间距 */
+      --spacing-list-item: 10px; /* 列表项的下方间距 */
+      --max-content-width: 900px; /* 内容最大宽度 */
+    }
+
+    .masthead {
+      display: none; /* 隐藏原有的导航栏 */
+    }
+    
+    /* 定义导航栏样式 */
+    .navbar {
+      position: fixed;
+      top: 20px;
+      right: 100px;
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* 当前页面名称的显示 */
+    .navbar .current-page {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    /* 隐藏子目录 */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    /* 居中简介部分 */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      line-height: var(--line-height);
+      color: #333;
+    }
+
+    /* 调整标题和列表的格式，使用CSS变量控制间距和字号 */
+    .container h2 {
+      font-size: var(--font-size-title);
+      margin-top: var(--spacing-section);
+      margin-bottom: var(--spacing-section);
+      color: #333;
+      text-align: left;
+      width: 100%;
+      max-width: var(--max-content-width);
+    }
+
+    .container ul {
+      list-style-type: disc;
+      padding-left: 40px;
+      max-width: var(--max-content-width);
+      width: 100%;
+    }
+
+    .container li {
+      margin-bottom: var(--spacing-list-item);
+      font-size: var(--font-size-list);
+    }
+
+    .container strong {
+      font-size: 1.2em;
+    }
+
+    /* 增加媒体查询，确保小屏幕上可以自适应 */
+    @media (max-width: 768px) {
+      :root {
+        --font-size-base: 14px;
+        --font-size-title: 1.6em;
+        --font-size-list: 0.9em;
+        --spacing-section: 20px;
+        --spacing-list-item: 8px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- 导航栏HTML -->
+  <div class="navbar">
+    <div class="dropdown">
+      <!-- 当前页面名称 -->
+      <a class="current-page" href="{{ site.baseurl }}/">Home</a>
+      <!-- 子目录，点击或悬停时显示 -->
+      <div class="dropdown-content">
+        <a href="{{ site.baseurl }}/recognition/">Recognition & Services</a>
+        <a href="{{ site.baseurl }}/awards/">Awards</a>
+        <a href="{{ site.baseurl }}/chip/">Example Chip Projects</a>
+        <a href="{{ site.baseurl }}/Multidisciplinary Projects/">Multidisciplinary Projects</a>
+        <a href="{{ site.baseurl }}/students/">students</a>
+        <a href="{{ site.baseurl }}/jnoural/">Journal Papers</a>
+        <a href="{{ site.baseurl }}/conference/">Conference Papers</a>
+        <a href="{{ site.baseurl }}/books/">Books/Book Chapters</a>
+        <a href="{{ site.baseurl }}/patents/">Patents</a>
+        <a href="{{ site.baseurl }}/presentations/">Presentations</a>
+        <a href="{{ site.baseurl }}/memories20232024/">Memories 2023 and 2024</a>
+        <a href="{{ site.baseurl }}/memories2022/">Memories 2022</a>
+        <a href="{{ site.baseurl }}/memories20202021/">Memories 2020 and 2021</a>
+        <a href="{{ site.baseurl }}/memories2019/">Memories 2019</a>
+        <a href="{{ site.baseurl }}/memories2018/">Memories 2018 and Before</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 全宽背景图片部分 -->
+  <section id="recognition-services" style="text-align: center; padding: 20px;">
+    <div style="background-image: url('{{ site.baseurl }}/assets/images/UM.png'); background-position: center center; background-size: cover; width: 100%; height: 500px;"></div>
+    <div style="margin-top: 20px;">
+      <h1 style="font-size: 2em; color: #333;">Recognition & Services</h1>
+    </div>
+  </section>
+
+  <!-- 贡献和成就部分 -->
+  <div class="container">
+
+    <h2>Contribution to the Macau SAR Government and Community</h2>
+    <ul>
+      <li>专家学者(微电子), Macau Higher Education Bureau 高等教育局研发成果专业化专责小组 (2019)</li>
+      <li>Panel, 1st Macau Joint School Science Exhibition (2019) [第一届澳门联校科学展览]</li>
+    </ul>
+
+    <h2>Contribution to IEEE Books and Journals</h2>
+    <ul>
+      <li>Associate Editor, IEEE Journal of Solid-State Circuits (2018-2024)</li>
+      <li>Associate Editor, IEEE Solid-State Circuits Letters (2017-2023)</li>
+      <li>Associate Editor, IEEE Circuits and Systems Society Newsletter (2010-Present)</li>
+      <li>Guest Editor, IEEE Sensors Journal (2019)</li>
+      <li>Guest Editor, IEEE Journal of Solid-State Circuits – Special Issue of ISSCC 2017 (2018)</li>
+      <li>Guest Editor, IEEE Journal on Emerging and Selected Topics in Circuits and Systems (2017)</li>
+      <li>Editorial Board Member, IEEE Press (2014-2016)</li>
+      <li>Senior Editor, IEEE Journal on Emerging and Selected Topics in Circuits and Systems (2014-2015)</li>
+      <li>Associate Editor, IEEE Transactions on Circuits and Systems I – Regular Papers (2014-2015)</li>
+      <li>Associate Editor, IEEE Potentials (2012-2014)</li>
+      <li>Guest Editor, IEEE RFIC Virtual Journal (2014)</li>
+      <li>Associate Editor, IEEE Transactions on Circuits and Systems II – Express Briefs (2012-2013)</li>
+      <li>Associate Editor, IEEE Transactions on Circuits and Systems II – Express Briefs (2010-2011)</li>
+      <li>Associate Editor, IEEE Transactions on Circuits and Systems I – Regular Papers (2010-2011)</li>
+    </ul>
+
+    <h2>Contribution to Other Journals</h2>
+    <ul>
+      <li>Associate Editor, Integration, the VLSI Journal – Elsevier (2016-2017)</li>
+    </ul>
+
+    <h2>Contribution to IEEE Conference Activities</h2>
+    <ul>
+      <li>Committee Member, IEEE CASS Charles A. Desoer Technical Achievement Award (2020)</li>
+    </ul>
+
+    <h2>Conference Steering Committee Member</h2>
+    <ul>
+      <li>The Workshop on IC Advances in China (ICAC), (since 2019)</li>
+    </ul>
+
+    <h2>Conference Co-Chair</h2>
+    <ul>
+      <li>The Workshop on IC Advances in China (ICAC) (2019-2021)</li>
+    </ul>
