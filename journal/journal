@@ -132,69 +132,20 @@ author_profile: false
   
   <div class="container">
     <ul>
-      <li><strong>SSCS Predoctoral Achievement Award (Haijun Shao)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2022-2023</li>
-      <li><strong>Xplorer Prize</strong><br>Awarded by: Tencent Foundation, 2022</li>
-      <li><strong>Student Paper Award - 3rd Place (Xiaoteng Zhao)</strong><br>Awarded by: IEEE Radio Frequency Integrated Circuits Symposium (RFIC), 2021</li>
-      <li><strong>ISSCC Student Travel Grant Award (Chao Fan)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2020</li>
-      <li><strong>Best Paper Award</strong><br>Awarded by: IEEE Asia Pacific Conference on Circuits and Systems (APCCAS), 2019</li>
-      <li><strong>Best Track Paper Award</strong><br>Awarded by: IEEE PES Asia-Pacific Power and Energy Engineering Conference (APPEEC), 2019</li>
-      <li><strong>Best Poster Paper Award</strong><br>Awarded by: 9th International Multidisciplinary Conference on Optofluidics (IMCO), 2019</li>
-      <li><strong>SSCS Predoctoral Achievement Award (Chee-Cheow Lim)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2018-2019</li>
-      <li><strong>SSCS Predoctoral Achievement Award (Yang Jiang)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2018-2019</li>
-      <li><strong>ISSCC SRP Poster Award Honorable Mention (Xingqiang Peng)</strong><br>Awarded by: IEEE International Solid-State Circuits Conference, 2018</li>
-      <li><strong>SSCS Predoctoral Achievement Award (Wei-Han Yu)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2017-2018</li>
-      <li><strong>IEEE/CEDA Outstanding Service Award (co-recipient)</strong><br>Awarded by: IEEE Council on Electronic Design Automation (CEDA), 2017</li>
-      <li><strong>SSCS Predoctoral Achievement Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2016-2017</li>
-      <li><strong>ISSCC Student Travel Grant Award (Tantan Zhang)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2017</li>
-      <li><strong>UK Royal Society of Chemistry Poster Prize (Jie Gao)</strong><br>Awarded by: Lab on a Chip International Symposium: Droplet-based Microfluidics, 2016</li>
-      <li><strong>ISSCC Silkroad Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE International Solid-State Circuits Conference, 2016</li>
-      <li><strong>ISSCC Student Travel Grant Award (Wei-Han Yu and Chio-In Ieong)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2016</li>
-      <li><strong>A-SSCC Distinguished Design Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE Asian Solid-State Circuits Conference, 2015</li>
-      <li><strong>SSCS Predoctoral Achievement Award (Zhicheng Lin)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2014-2015</li>
-      <li><strong>ISSCC Student Travel Grant Award (Ka-Meng Lei)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2015</li>
-      <li><strong>SSCS Predoctoral Achievement Award (Zushu Yan)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2013-2014</li>
-      <li><strong>ISSCC Student Travel Grant Award (Zushu Yan)</strong><br>Awarded by: IEEE Solid-State Circuits Society, 2014</li>
-      <li><strong>Best Associate Editor</strong><br>Awarded by: IEEE Transactions on Circuits and Systems II, 2012-2013</li>
-      <li><strong>Best Paper Award</strong><br>Awarded by: Asia Symposium on Quality Electronic Design – ASQED, Penang, Malaysia, 2013</li>
-      <li><strong>Silver-Leaf Certificate</strong><br>Awarded by: 2nd IEEE Asia Pacific Conference on Postgraduate Research in Microelectronics & Electronics (PrimeAsia), 2010</li>
-      <li><strong>IEEE CASS Outstanding Young Author Award (for the Best Journal Paper)</strong><br>Awarded by: IEEE Circuits and Systems Society, for authoring a meritorious paper published in any of the CAS Society’s Transactions whose author at the date of submission is <30 years of age. [among the five Best Paper Awards selected from all IEEE CAS Society Transactions], 2010</li>
-      <li><strong>IEEE MGA GOLD Achievement Award</strong><br>Awarded by: IEEE with the citation “For outstanding contributions to global GOLD activities by implementing new strategies to recognize, support, and network GOLD members”, 2009 [Among the 2 recipients awarded to Region 10 – Asia Pacific and Australia]</li>
-      <li><strong>IEEE CASS Service Appreciation</strong><br>Awarded by: IEEE Circuits and Systems Society for professional services to the Board-of-Governors as GOLD Representative of Region 10, 2009</li>
-      <li><strong>Gold-Leaf Certificate</strong><br>Awarded by: 1st IEEE Asia Pacific Conference on Postgraduate Research in Microelectronics & Electronics (PrimeAsia), 2009</li>
-      <li><strong>IEEE CAS Chapter-of-the-Year Award (Co-Recipient)</strong><br>Awarded by: IEEE Circuits and Systems Society, 2009</li>
-      <li><strong>Visiting Fellowship</strong><br>Awarded by: University of Cambridge, United Kingdom, 2009</li>
-      <li><strong>Merit Student Paper Award</strong><br>Awarded by: IEEE Asia-Pacific Conference on Circuits and Systems, 2008</li>
-      <li><strong>Silver-Leaf Certificate</strong><br>Awarded by: 1st IEEE Conference on Ph.D. Research in Micro-Electronics and Electronics (PRIME), 2005</li>
-      <li><strong>Paper Contest Award, 2nd Place</strong><br>Awarded by: ACM/IEEE Design Automation Conference and International Solid-State Circuits Conference (DAC/ISSCC), 2005</li>
-      <li><strong>Best Paper Award</strong><br>Awarded by: 7th IEEJ International Analog VLSI Workshop, 2004</li>
-      <li><strong>Paper Contest Award, 2nd Place</strong><br>Awarded by: 47th IEEE International Midwest Symposium on Circuits and Systems (MWSCAS), 2004</li>
-      <li><strong>Outstanding Student Paper Award</strong><br>Awarded by: 5th IEEE International Conference on ASIC, 2003</li>
+
+     <h2>2025 and beyond</h2>
+
+    <p><strong>J2xx. Jixuan Li, Ke Li, Ka - Fai Un, Wei - Han Yu, Rui P. Martins, Pui - In Mak</strong>, "A 97.8 GPOS/W FPGA - Based Residual - Block - Aware CNN Accelerator Featuring Multi - Clock Pointwise - and - Adaptive - Resolution Quantization," <strong>IEEE Transactions on Circuits and Systems I</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Yi Zhan, Wei - Han Yu, Ka - Fai Un, Rui P. Martins, Pui - In Mak</strong>, "GSLP - CIM: A 28 - nm Globally Synchronous and Locally Parallel CNN/Transformer Accelerator with Scalable and Reconfigurable eDRAM Compute - in - memory Macro for Flexible Dataflow," <strong>IEEE Transactions on Circuits and Systems I</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Shuhao Fan, Qi Zhou, Ka - Meng Lei, Rui Martins, Pui - In Mak</strong>, "A Miniature Multi - Nuclei NMR/MRI Platform with a High - Voltage SOI ASIC Achieving a 134.4 dB Image SNR with a 173×250×103μm3 Resolution," <strong>IEEE Journal of Solid - State Circuits</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Liwen Lin, Wei - Han Yu, Hajun Shao, Jun Yin, Ka - Meng Lei, Rui P. Martins, Pui - In Mak</strong>, "A Battery - Free Crystal - Less BLE Transmitter Tag with Fully - Integrated RF Harvesting and Multi - Tag TDD and FDD Broadcasting," <strong>IEEE Transactions on Microwave Theory and Techniques</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Zhizhan Yang, Haochen Zhang, Jun Yin, Rui P. Martins, Pui - In Mak</strong>, "An 840 - to - 970 MHz Multimodal Wake - up Receiver with a Q - equalized Antenna - ED Interface and 2 - dimensional Wake - up Identification," <strong>IEEE Transactions on Circuits and Systems I</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Fei Tan, Wei - Han Yu, Jinhao Lin, Ka - Fai Un, Rui P. Martins, Pui - In Mak</strong>, "A 1.8% FAR, 2ms Decision Latency, 1.73nJ/Decision Keywords Spotting (KWS) Chip Incorporating Transfer - Computing Speaker Verification, Hybrid - Domain Computing and Scalable 5T - SRAM," <strong>IEEE Journal of Solid - State Circuits</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Rui Luo, Ka - Meng Lei, Rui P. Martins, Pui - In Mak</strong>, "A 0.5 - V 6.14 - μW Trimming - Free Single - XO Dual - Output Frequency Reference with [5.1 - nJ, 120 - μs] XO Startup and [8.1 - nJ, 200 - μs] Successive - Approximation - Based RTC Calibration," <strong>IEEE Journal of Solid - State Circuits</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
+    <p><strong>J2xx. Haochen Zhang, Wei - Han Yu, Zhizhan Yang, Ka - Fai Un, Jun Yin, Rui P. Martins and Pui - In Mak</strong>, "A 90.7 - nW Vibration - Based Condition Monitoring Chip Featuring a Digital Compute - in - Memory - Based DN Accelerator Using an Ultra - Low - Power 13T - SRAM Cell," <strong>IEEE Journal of Solid - State Circuits</strong>, vol. xx, pp. xxx - xxx, xxxx.</p>
     </ul>
 
-    <span>National and Local</span>
 
-    <ul>
-      <li><strong>2022 Macao Science and Technology Invention Award (2nd Class)</strong><br>Awarded by Macau - FDCT</li>
-      <li><strong>2022 Macao Science and Technology Invention Award (3rd Class)</strong><br>Awarded by Macau - FDCT</li>
-      <li><strong>2020 Macao Science and Technology Invention Award (1st Class)</strong><br>Awarded by Macau - FDCT</li>
-      <li><strong>2020 Overall Champion, Torch Award, IEEAC Award, Protechting Award, Alibaba Cloud Award and Best Investment Value Award</strong><br>A
-      <li><strong>University-level 2019/2020 Incentive Scheme for Outstanding Academic Staff</strong>Awarded by University of Macau</li>
-      <li><strong>2019 Fellow of the Year Award</strong>Awarded by Choi Kai Yau College, University of Macau </li>
-      <li><strong>2019 Macao Regional Champion</strong>Awarded by Bank of China Trophy One Million Dollar Entrepreneurship Competition, Macau</li>
-      <li><strong>2019 FST 30th Anniversary Outstanding Alumni Award</strong>Awarded by University of Macau, Faculty of Science and Technology (FST)</li>
-      <li><strong>2017/2018 FST Outstanding Academic Staff</strong>Awarded by University of Macau</li>
-      <li><strong>2016/2017 FST Research Excellence Award</strong>Awarded by University of Macau</li>
-      <li><strong>2017 10-Year Long Service Award</strong>Awarded by University of Macau</li>
-      <li><strong>2016 Young Researcher Award (Student: Ka-Meng Lei)</strong>Awarded by International Institute of Macau - IIM</li>
-      <li><strong>2016 Macao Science and Technology Invention Award (2nd Class)</strong>Awarded by Macau - FDCT</li>
-      <li><strong>2014 Excellence in Innovation (co-recipient)</strong>Awarded by Macau Business Award</li>
-      <li><strong>2014 Macao Science and Technology Invention Award (2nd Class)</strong>Awarded by Macau - FDCT</li>
-      <li><strong>2012 Macao Science and Technology Invention Award (2nd Class)</strong>Awarded by Macau - FDCT</li>
-      <li><strong>2012 Macao Science and Technology Special Award</strong>Awarded by Macau - FDCT</li>
-      <li><strong>2011 University of Macau Academic Staff Award</strong>Awarded by University of Macau “For outstanding performances and achievements contributed for the UM international projection,”  2010</li>
-      <li><strong>2007-2009 University of Macau Research Award - Emerging Scholar</strong>Awarded by University of Macau with citation “For his contribution of excellent research to the community and global industry.” , 2010</li>
-      <li><strong>Merit Paper Award</strong>Awarded by: Regional Inter-University Postgraduate Electrical and Electronic Engineering Conference (RIUPEEEC), 2005</li>
-    </ul>
   </div>
 </body>
 
