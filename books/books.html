@@ -1,1 +1,157 @@
+---
+collection: books
+permalink: /books/
+layout: default
+author_profile: false
+---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awards and Achievements</title>
+  <style>
+    .masthead {
+      display: none; /* 隐藏原有的导航栏 */
+    }
+    /* 定义导航栏样式 */
+    .navbar {
+      position: fixed;
+      top: 20px;
+      right: 100px;
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  
+    .navbar a {
+      color: white;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  
+    /* 当前页面名称的显示 */
+    .navbar .current-page {
+      font-weight: bold;
+      color: #fff;
+    }
+  
+    /* 隐藏子目录 */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px; /* Limit the width of the content */
+      margin: 0 auto; /* Center the container */
+    }
+    .container h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .container ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .container li {
+      margin-bottom: 10px;
+    }
+    .container span {
+      font-size: 24px;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 导航栏HTML -->
+  <div class="navbar">
+    <div class="dropdown">
+      <!-- 当前页面名称 -->
+      <a class="current-page" href="{{ site.baseurl }}/">Home</a>
+      <!-- 子目录，点击或悬停时显示 -->
+      <div class="dropdown-content">
+        <a href="{{ site.baseurl }}/index.html">Home</a>
+        <a href="{{ site.baseurl }}/recognition/">Recognition & Services</a>
+        <a href="{{ site.baseurl }}/awards/">Awards</a>
+        <a href="{{ site.baseurl }}/chip/">Example Chip Projects</a>
+        <a href="{{ site.baseurl }}/student/">Students</a>
+        <a href="{{ site.baseurl }}/journal/">Journal Papers</a>
+        <a href="{{ site.baseurl }}/conference/">Conference Papers</a>
+        <a href="{{ site.baseurl }}/books/">Books/Book Chapters</a>
+        <a href="{{ site.baseurl }}/patents/">Patents</a>
+        <a href="{{ site.baseurl }}/presentations/">Presentations</a>
+        <a href="{{ site.baseurl }}/memories20232024/">Memories 2023 and 2024</a>
+        <a href="{{ site.baseurl }}/memories2022/">Memories 2022</a>
+        <a href="{{ site.baseurl }}/memories20202021/">Memories 2020 and 2021</a>
+        <a href="{{ site.baseurl }}/memories2019/">Memories2019</a>
+        <a href="{{ site.baseurl }}/memories2018/">Memories 2018 and Before</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <ul>
+
+    <h3>Books</h3>
+    <p><strong>1. R. P. Martins (ed.) and Pui-In Mak (ed.)</strong>, Analog and Mixed-Signal Circuits in Nanoscale CMOS, Springer, 2023. ISBN: 978-3-031-22231-3</p>
+    <p><strong>2. Rui P. Martins, Pui-In Mak, Sai-Weng Sin, Man-Kay Law, Yan Zhu, Yan Lu, Jun Yin, Chi-Hang Chan, Yong Chen, Ka-Fai Un, Mo Huang, Minglei Zhang, Yang Jiang and Wei-Han Yu</strong>, "Revisiting the Frontiers of Analog and Mixed-Signal Integrated Circuits Architectures and Techniques towards the future Internet of Everything (IoE) Applications", <em>Foundations and Trends in Integrated Circuits and Systems: Vol. 1, No. 2 - 3</em>, pp 72 - 216, now Publishers Inc., 2021. ISBN: 978-1-68083-893-0.</p>
+    <p><strong>3. Ka-Meng Lei, Pui-In Mak, Man-Kay Law and R. P. Martins</strong>, Handheld Total Chemical and Biological Analysis Systems - Bridging NMR, Digital Microfluidics and Semiconductors, Springer, 2018. ISBN: 978-3-319-88493-6</p>
+    <p><strong>4. Zhicheng Lin, Pui-In Mak and R. P. Martins</strong>, Ultra-Low-Power and Ultra-Low-Cost Short-Range Wireless Receivers in Nanoscale CMOS, Springer, 2016. ISBN: 978-3-319-37234-1</p>
+    <p><strong>5. Pui-In Mak and R. P. Martins</strong>, High-/ Mixed-Voltage Analog and RF Circuit Techniques for Nanoscale CMOS, Springer, 2012. ISBN: 978-1 4899-9220-8</p>
+    <p><strong>6. Pui-In Mak, Seng-Pan U and R. P. Martins</strong>, Analog-Baseband Architectures and Circuits - for Multistandard and Low-Voltage Wireless Transceivers, Springer, 2007. ISBN: 978-90-481-7640-3</p>
+
+    <h3>Book Chapters</h3>
+    <p><strong>1. Shiheng Yang, Jun Yin, Pui-In Mak, and Rui P. Martins</strong>, "Phase-Locked Frequency Generation and Clocking, Architectures and circuits for modern wireless and wireline systems - Multiplying DLLs", in <em>Architectures and circuits for modern wireless and wireline systems - Multiplying DLLs</em>, Editor: Woogeun Rhee, IET, 2020. ISBN: 978-17-856-1885-7</p>
+    <p><strong>2. Ka-Meng Lei, Nan Sun, Pui-In Mak, Rui Paulo Martins, and Donhee Ham</strong>, "CMOS Circuits for Biological Sensing and Processing Systems Micro-NMR on CMOS for biomolecular sensing", in <em>CMOS Circuits for Biological Sensing and Processing Systems Micro-NMR on CMOS for biomolecular sensing</em>, Editors: Dr. Srinjoy Mitra and Prof. David R. S. Cumming, Springer, 2018. ISBN-13: 978-33 198-8475-2</p>
+    <p><strong>3. Pui-In Mak, Zhicheng Lin and R. P. Martins</strong>, "Enabling the Internet of Things - from Integrated Circuits to Integrated Systems - Circuit Techniques for IoT-Enabling Short-Range ULP Radios", in <em>Enabling the Internet of Things - from Integrated Circuits to Integrated Systems - Circuit Techniques for IoT-Enabling Short-Range ULP Radios</em>, Editor: M. Alioto, Springer, 2017. ISBN: 978-3-319-84662-0</p>
+    <p><strong>4. Zhicheng Lin, Pui-In Mak and R. P. Martins</strong>, "Wireless Circuits - Design and Implementation of Ultra-Low-Power ZigBee/WPAN Receiver", in <em>Wireless Circuits - Design and Implementation of Ultra-Low-Power ZigBee/WPAN Receiver</em>, Editors: W. Rhee and K. Iniewski, CRC, 2014. ISBN: 978-13-152-1524-2</p>
+    <p><strong>5. Ka-Fai Un, Pui-In Mak and R. P. Martins</strong>, "Low Power Emerging Wireless Technologies - An Open-Loop Multi-Phase Local-Oscillator Generation Technique", in <em>Low Power Emerging Wireless Technologies - An Open-Loop Multi-Phase Local-Oscillator Generation Technique</em>, Editors: R. Mahmoudi and K. Iniewski, Chapter 10, pp. 233 - 248, CRC, 2013. ISBN: 978-13-152-1651-5</p>
+      
+    </ul>
+
+
+  </div>
+</body>
+
+  
